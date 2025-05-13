@@ -18,8 +18,10 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '18'
     - name: Install ESLint
       run: npm install eslint
     - name: Run ESLint
       run: npx eslint **/*.js
+    - name: Clean npm cache
+      run: npm cache clean --force
