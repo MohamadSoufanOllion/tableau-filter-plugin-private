@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>XportIQ: Export to Excel</title>
+        <link rel="stylesheet" href="style.css" />
+
+        <script>
+            var exports = {};
+        </script>
+        <script src="tableau-extensions.js"></script>
+        <script src="exceljs.js" type="module" defer></script>
+
+        <script src="xportiq.js" type="module" defer></script>
+    </head>
+
+    <body class="body">
+        <h1 class="extension-title">XportIQ</h1>
+        <div class="container">
+            <div class="item">
+                <label for="worksheetSelect" class="control-label">
+                    Select Worksheet:
+                </label>
+                <select id="worksheetSelect"></select>
+            </div>
+            <div class="item">
+                <label class="control-label">Applied Filters:</label>
+                <div id="filters" class="filters-display"></div>
+            </div>
+        </div>
+        <button id="exportButton" style="grid-column: 1 / span 2">
+            Export to Excel
+        </button>
+        <div id="error" class="error-message"></div>
+        <div id="loading" class="loading-indicator">Loading...</div>
+    </body>
+</html>

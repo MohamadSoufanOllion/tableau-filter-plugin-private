@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.ollion.extensions.xportiq" extension-version="1.0.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>XportIQ: Export filtered Tableau dashboard data to Excel.</description>
+    <author name="Ollion Inc." email="vikrant.kahlir@ollion.com" organization="Ollion Inc." website="https://ollion.com"/>
+    <min-api-version>1.0</min-api-version>
+
+    <source-location>
+        <!-- NOTE: Remove the existing URL and add your internal HTTPS url here  -->
+        <url>https://ollion-xportiq.pages.dev/</url>
+    </source-location>
+
+    <icon>iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAABhlBMVEUAAAAAAAAAAAAAAAAAAAAAAAAgIAAcHBwaGhoXFxcVFRUREREQEBAPDw8ODg4NDQ0XFwwVFQsUFAoTExMSEhISEhIREREQEBAQEBAPDw8PFw8VFQ4VFQ4UFA0TEwwSEgwREREREREQEBAQFRAUFA8SEg4SEg0REQ0SEg8SEg4REQ4RFQ4UFBATExATExASEg8SEg8RFA4TEw4TExATExASEg8SFA8SFA8RFA8REw8REw4TEw4RFA8REw8REw8TEw8SEg4SEg4SFBASFBASFBAREw8REw8SEg8SEg8SFA4SFA4SEw4RExASEg8SEg8SEg8SEw8RExATExASEg8SFA8SFA8SFA8SEw8SEw8SEw8REw8REw4TExASEg8SEw8SEw8REw8SFA4SExASEw8SEw8SEw8REw8SEw8SEw8SEw4SEw8TEw8SEw8SEw8SEw4SEw8SFA8SEw8SEw8SEw8SEw8SEw8SEw8SEw8SEw8SEw8TEw8SEw8SEw8SEw8SEw8SEw8SEw////8Ijg7JAAAAgHRSTlMAAQIEBQYICQoLDA8QERITFhgZGxwdHh8gISIkJScpKiwtLzE0ODo7RUhJSk5QUlRVW11eYGRlZmdpamx1dnh7fX+AgYKFhoqMjY+QlJiZmp6ipKaoqaqrra6vsLO1uLy/w8XHyczN0tPU19zg4uXp6+zu8PHy8/X29/j5+vv8/oxbx+gAAAABYktHRIESuq7+AAABsUlEQVQYGe3B+0NLcRgG8KetFFlyncIyrSy51shlRCEjucTcr3NExBxl6bLz/OnO2dbxnp3v22/9dj4fRCKRyFZJpA/ugK69qx26vVfeL9JVnh3pQEhr9u7cEskfz0cSMNl9f52+n/ntCIjnvtG3em8XQkb/MGA+DaHHYoA9iqDYFJstn4Eva7PZ7RZIBYatDaNhsMKwaQhjNKmkUNNr0yQH374KjUoxeN7S6O9hbJilIgfXWSoeo+GIQ8VnuEpUVFOou0FVBkhTdRN1X6m6DoxT9Qk12xyqXgDPqKruhKePUnlGmgAKRcmmlIFniJKFTVmUhuAZpmRhUxalE/AMUrKLUgGYnJHKlI7C0+1QVQReUeV0oOYLVdeACarmUVegqg8YoGoSdRlqPsA1R4WTQsNrKk7DdZGKJ9jQX6XRG3hiJRotJ+HL0+RXEjX9KzS5gP9anjKsMoCGU1WG3YHU9pDN7Cx859fZbCqGoKsrDLB6IBxfYMDSOYTsf+TQtzAWR0DXrUX61qa7YXIo/3GVpPP9wck2hCQuv/xNl/3u0h6o4geOJVuh6uxNdyISiUS2yD+5pE0Nr+4LGgAAAABJRU5ErkJggg==</icon>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">XportIQ</text>
+      </resource>
+  </resources>
+</manifest>
