@@ -19,8 +19,9 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '18'
-    - name: Install ESLint
-      run: npm install eslint
+    
+    - name: Install dependencies
+      run: npm install eslint@9.26.0 eslint-plugin-security eslint-plugin-no-unsanitized
     - name: Run ESLint
       run: npx eslint **/*.js
     - name: Clean npm cache

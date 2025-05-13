@@ -1,0 +1,21 @@
+{
+  "name": "ollion-xportiq-tableau-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eslint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ollionorg/tableau-filter-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ollionorg/tableau-filter-plugin/issues"
+  },
+  "homepage": "https://github.com/ollionorg/tableau-filter-plugin#readme"
+}
