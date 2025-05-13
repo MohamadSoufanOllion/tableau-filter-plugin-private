@@ -23,6 +23,6 @@ jobs:
     - name: Install dependencies
       run: npm install eslint@9.26.0 eslint-plugin-security eslint-plugin-no-unsanitized
     - name: Run ESLint
-      run: npx eslint **/*.js
+      run: npx eslint --config eslint.config.js "**/*.js"
     - name: Clean npm cache
       run: npm cache clean --force
