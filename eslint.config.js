@@ -6,10 +6,10 @@ const noUnsanitized = require("eslint-plugin-no-unsanitized");
 module.exports = [
   js.configs.recommended,
   {
-    ignores: ['node_modules/**/*'],
+    ignores: ["node_modules/**/*"],
     plugins: {
       security,
-      noUnsanitized,
+      "no-unsanitized": noUnsanitized,
     },
     rules: {
       ...security.configs.recommended.rules,
