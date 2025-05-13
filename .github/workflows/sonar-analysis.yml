@@ -46,5 +46,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-              -Dsonar.projectKey=MohamadSoufanOllion_tableau-filter-plugin-private # your_project_key
-              -Dsonar.organization=mohamadsoufanollion # your_organization_key
+            -Dsonar.projectKey=MohamadSoufanOllion_tableau-filter-plugin-private
+            -Dsonar.organization=mohamadsoufanollion
